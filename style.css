@@ -111,4 +111,54 @@
     display: flex;
     align-items: center;
     gap: 5px;
+    border-right: 2px solid gray;
+    padding-right: 9px;
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+}
+.appointment-container{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    padding: 50px;
+    background-color: rgb(199, 22, 22);
+    border-radius: 7px;
+    margin-top: -70px;
+    align-items: center;
+}
+.blog-title{
+    text-align: center;
+    margin: 50px;
+}
+.card{
+    width: 200px;
+    height: 370px;
+    /* background-color:blueviolet; */
+    box-shadow: 4px 8px 4px gray;
+    border-radius: 5px;
+    text-align: center;
+}
+.blog-img{
+    width: 100%;
+}
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.blog-container{
+    width: 80%;
+    margin: auto;
+    background-color: lightgray;
+    padding: 25px;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
