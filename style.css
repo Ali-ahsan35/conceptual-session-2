@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 15px;
+    align-items: center;
+}
+
+.menus>ul>li{
+    list-style: none;
+}
+.menus ul{
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    color: white;
+}
+.banner-container{
+    height:100vh;
+    background-image: url("./asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.primary{
+    color: red;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    color: white;
+    width: 50%;
+    margin: auto;
+    padding: 7px;
+}
+.btn{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 7px;
+    margin-top: 12px;
+    
+}
+.bg-primary{
+    background-color: red;
+    color: white;
+    margin-right: 10px;
+}
+.btn:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.service-container{
+    height:100vh;
+    color: white;
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 20px 50px;
+    align-items: center;
+}
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
+.box{
+    width: 120px;
+    height: 120px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 3px;
+}
+.service-description{
+    width: 50%;
+    font-size: 19px;
+}
+.first-two-box{
+    margin-top: 7px;
+    display: flex;
+    gap: 7px;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 15px;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
